@@ -8,7 +8,7 @@ import SwupPreloadPlugin from 'https://unpkg.com/@swup/preload-plugin@3?module';
 
 const swup = new Swup({
   containers: ["main"],
-  plugins: [new SwupPreloadPlugin(), // will put the first page into the cache automatically
+  plugins: [new SwupPreloadPlugin({ preloadVisibleLinks: true }), // will put the first page into the cache automatically
   new SwupScrollPlugin({
     animateScroll: false,
     shouldResetScrollPosition: (link) => !link.matches('.backlink')
