@@ -223,5 +223,7 @@ pre {
   margin: 10px 0;
   overflow: auto;
   border-radius: 10px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 }
