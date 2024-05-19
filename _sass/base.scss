@@ -199,3 +199,29 @@ main {
 .intro {
   font-weight: bold;
 }
+
+
+// a
+
+article {
+  img {
+    max-width: 100%;
+  }
+  img+em  {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center; 
+}
+pre {
+  color: white;
+  background-color: #1b2b34;
+  padding: 20px 15px;
+  margin: 10px 0;
+  overflow: auto;
+  border-radius: 10px;
+}
+}
