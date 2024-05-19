@@ -37,7 +37,14 @@
 
     <main class="overview transition-main">
 
+      {% if page.layout == 'default' %}
       
+      <h1>
+        <span>{{page.title}}</span>
+        
+      </h1>
+      
+      {% endif %}
 {{ content }}
     </main>
     </div>
