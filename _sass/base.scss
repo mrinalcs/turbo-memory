@@ -38,6 +38,7 @@ body {
 }
 
 a {
+  -webkit-tap-highlight-color: transparent; /* for removing the highlight */
   text-decoration: none;
   color: inherit;
 }
