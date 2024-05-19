@@ -49,7 +49,7 @@ const swup = new Swup({
         const script = document.createElement('script');
         script.type = 'text/javascript';
         script.async = true;
-        script.src = 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js';
+        script.src = 'https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js';
         document.head.appendChild(script);
         
         // Initialize Mermaid after the library is loaded
