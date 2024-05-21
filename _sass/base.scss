@@ -21,6 +21,11 @@
   scrollbar-gutter: stable;
 }
 
+html{
+  -webkit-text-size-adjust: 100%; 
+  overflow-wrap: break-word;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
   margin: 0;
