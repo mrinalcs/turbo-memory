@@ -3,14 +3,14 @@ permalink: /script
 ---
 
 import Swup from 'https://unpkg.com/swup@4?module';
-import FragmentPlugin from 'https://www.unpkg.com/@swup/fragment-plugin@1?module';
+import SwupHeadPlugin from 'https://unpkg.com/@swup/head-plugin@2?module';
 import SwupPreloadPlugin from 'https://unpkg.com/@swup/preload-plugin@3?module';
 import SwupScrollPlugin from 'https://unpkg.com/@swup/scroll-plugin@3?module';
 
 const swup = new Swup({
   containers: ["main"],
   plugins: [new SwupPreloadPlugin({ preloadVisibleLinks: true }),
-    new FragmentPlugin(),
+    new SwupHeadPlugin(),
   new SwupScrollPlugin({
     animateScroll: false,
     shouldResetScrollPosition: (link) => !link.matches('.backlink')
