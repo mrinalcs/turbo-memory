@@ -7,7 +7,7 @@ import SwupPreloadPlugin from 'https://unpkg.com/@swup/preload-plugin@3?module';
 import SwupScrollPlugin from 'https://unpkg.com/@swup/scroll-plugin@3?module';
 
 const swup = new Swup({
-  containers: ["main"],
+  containers: ["main", "link[rel='canonical']"],
   plugins: [new SwupPreloadPlugin({ preloadVisibleLinks: true }),
     
   new SwupScrollPlugin({
