@@ -47,7 +47,7 @@ function initMathJax() {
 }
 
 
-    // Function to initialize Mermaid
+    
   // Function to initialize Mermaid
 function initMermaid() {
   // Check if there are elements with the class '.language-mermaid'
