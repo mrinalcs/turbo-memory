@@ -29,11 +29,7 @@ function initMathJax() {
       script.src = '/assets/js/MathJax.js?config=TeX-AMS_CHTML-full';
       script.onload = () => {
         MathJax.Hub.Config({
-          tex2jax: {
-            inlineMath: [['\\(','\\)']],
-            displayMath: [['\\[','\\]']],
-            processEscapes: true
-          },
+          showMathMenu: false,
           showProcessingMessages: false,
           messageStyle: 'none'
         });
