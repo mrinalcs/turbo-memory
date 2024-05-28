@@ -1,4 +1,5 @@
-
+---
+---
 import Swup from './swup/swup@4.6.1/dist/Swup.module.js?module';
 import SwupPreloadPlugin from './swup/@swup/preload-plugin@3.2.10/dist/index.module.js?module';
 import SwupScrollPlugin from './swup/@swup/scroll-plugin@3.3.2/dist/index.module.js?module';
@@ -23,7 +24,7 @@ function initMathJax() {
       const script = document.createElement('script');
       script.type = 'text/javascript';
       script.async = true;
-      script.src = '/assets/js/mathjax/MathJax.js?config=TeX-AMS_CHTML-full';
+      script.src = '{{ "/assets/js/mathjax/MathJax.js?config=TeX-AMS_CHTML-full" | relative_url }}';
       script.onload = () => {
         MathJax.Hub.Config({
           showMathMenu: false,
@@ -51,7 +52,7 @@ function initMermaid() {
       const script = document.createElement('script');
       script.type = 'text/javascript';
       script.async = true;
-      script.src = '/assets/js/mermaid.min.js';
+      script.src = '{{ "/assets/js/mermaid.min.js" | relative_url }}';
       document.head.appendChild(script);
       
       // Initialize Mermaid after the library is loaded
