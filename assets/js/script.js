@@ -1,7 +1,7 @@
 
-import Swup from '/assets/js/swup@4.6.1/dist/Swup.module.js?module';
-import SwupPreloadPlugin from '/assets/js/@swup/preload-plugin@3.2.10/dist/index.module.js?module';
-import SwupScrollPlugin from '/assets/js/@swup/scroll-plugin@3.3.2/dist/index.module.js?module';
+import Swup from './swup/swup@4.6.1/dist/Swup.module.js?module';
+import SwupPreloadPlugin from './swup/@swup/preload-plugin@3.2.10/dist/index.module.js?module';
+import SwupScrollPlugin from './swup/@swup/scroll-plugin@3.3.2/dist/index.module.js?module';
 
 const swup = new Swup({
   containers: ["main", "link[rel='canonical']"],
