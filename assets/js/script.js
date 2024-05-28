@@ -1,6 +1,3 @@
----
-permalink: /script
----
 
 import Swup from '/assets/js/swup@4.6.1/dist/Swup.module.js?module';
 import SwupPreloadPlugin from '/assets/js/@swup/preload-plugin@3.2.10/dist/index.module.js?module';
