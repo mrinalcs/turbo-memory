@@ -23,7 +23,7 @@ function initMathJax() {
       const script = document.createElement('script');
       script.type = 'text/javascript';
       script.async = true;
-      script.src = '/assets/js/MathJax.js?config=TeX-AMS_CHTML-full';
+      script.src = '/assets/js/mathjax/MathJax.js?config=TeX-AMS_CHTML-full';
       script.onload = () => {
         MathJax.Hub.Config({
           showMathMenu: false,
